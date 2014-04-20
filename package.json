@@ -1,14 +1,15 @@
 {
-	"name": "Class4Tutorial",
-	"description": "Doing this in class",
+	"name": "MongoDBIsAwesome",
+	"description": "Adding MongoDB to our web app",
 	"version": "0.0.1",
-	"author": "Michael Paris",
+	"author": "Justin Herron",
 	"engines": {
 		"node": "0.10.x",
-		"npm": "1.3.x"
+		"npm": "1.4.x"
 	},
 	"dependencies": {
 		"express": "latest",
-		"ejs": "latest"
+		"ejs": "latest",
+		"mongoose": "latest"
 	}
 }

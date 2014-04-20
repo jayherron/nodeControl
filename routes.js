@@ -3,4 +3,8 @@ module.exports = function(app) {
 	app.get('/', handlers.index);
 	app.get('/watch', handlers.watch);
 	app.get('/bootstrap', handlers.bootstrap);
+	app.get('/pinterless', handlers.pinterless);
+
+	// Posts
+	app.post('/pinterless', handlers.createPin);
 }
